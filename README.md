@@ -17,7 +17,7 @@ model_trainer(loss_type='dag', batch_size=32, num_epochs=32)
 ```
 
 #### Task AU
-* load 'expr_train.h5', 'au_train.txt' for train_dataset in [train.py](./train.py); load 'au_val.h5', 'au_val.txt' for val_dataset in [train.py](./train.py).
+* load 'expr_train.h5', 'au_train.txt' for train_dataset in [train_au.py](./train_au.py); load 'au_val.h5', 'au_val.txt' for val_dataset in [train_au.py](./train_au.py).
 ```python
 python train_au.py
 ```
