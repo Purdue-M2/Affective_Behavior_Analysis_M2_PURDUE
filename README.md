@@ -3,7 +3,7 @@
 ### 1. Data Preparation
 * [Data is provided by the CVPR 2024 6th ABAW Competition](https://affective-behavior-analysis-in-the-wild.github.io/6th/). 
 
-* After getting the cropped and aligned face image data, use [CLIP ViT L/14](https://github.com/openai/CLIP) to extract image features and save them into h5 file (e.g., train_clip.h5 and val_clip.h5) by executing [clip_feature.py](./clip_feature.py). 
+* After getting the cropped and aligned face image data, use [CLIP ViT L/14](https://github.com/openai/CLIP) to extract image features and save them into h5 file (e.g., expr_train_clip.h5 and expr_val_clip.h5) by executing [clip_feature.py](./clip_feature.py). 
 ```python
 python clip_feature.py
 ```
