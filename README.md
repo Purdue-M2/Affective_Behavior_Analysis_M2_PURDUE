@@ -1,10 +1,15 @@
 # Challenge4
 
-### 1. [download processed data](https://purdue0-my.sharepoint.com/:u:/g/personal/lin1785_purdue_edu/EeNemHHjKqhEsDDGczyKiu0BpBcI4r6IyeGeu6QgLMX0og?e=ZkpDuT)
+### 1. Data Preparation
+* [Data is provided by the CVPR 2024 6th ABAW Competition](https://affective-behavior-analysis-in-the-wild.github.io/6th/). 
 
-### 2. Put the data folder under the Challenge4 directory.
+* After getting the Covid-19 CT scan data, use [CLIP ViT L/14](https://github.com/openai/CLIP) to extract image features and save them into h5 file (e.g., train_clip.h5 and val_clip.h5) by executing [clip_feature.py](./clip_feature.py). 
+```python
+python clip_feature.py
+```
 
-### 3. Train the model
+
+### 2. Train the model
 #### Task Expr
 * load 'expr_train_clip.h5', 'expr_train.txt' for train_dataset in [train.py](./train.py); load 'expr_val_clip.h5', 'expr_val.txt' for val_dataset in [train.py](./train.py).
 ```python
