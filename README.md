@@ -1,4 +1,4 @@
-# Challenge4
+# Robust Affective Behavior Analysis with CLIP
 
 ### 1. Data Preparation
 * [Data is provided by the CVPR 2024 6th ABAW Competition](https://affective-behavior-analysis-in-the-wild.github.io/6th/). 
