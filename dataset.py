@@ -2,32 +2,7 @@ import h5py
 import torch
 from torch.utils.data import Dataset
 
-# class UniAttackDataset(Dataset):
-#     def __init__(self, hdf5_filename, labels_filename, dataset_name):
-#         self.hdf5_filename = hdf5_filename
-#         self.dataset_name = dataset_name
-        
-#         # Read the labels from the text file
-#         with open(labels_filename, 'r') as file:
-#             self.labels = [int(line.strip().split()[-1]) for line in file.readlines()]  # Split line and convert label part
-#             print(len(self.labels))
-
-#     def __len__(self):
-#         return len(self.labels)
-
-#     def __getitem__(self, idx):
-#         # Open the HDF5 file and read the specified dataset
-#         with h5py.File(self.hdf5_filename, 'r') as hdf5_file:
-#             features_dataset = hdf5_file[self.dataset_name]
-#             feature = torch.tensor(features_dataset[idx], dtype=torch.float32)
-        
-#         label = torch.tensor(self.labels[idx], dtype=torch.long)
-#         return feature, label
-
-import h5py
-import torch
-from torch.utils.data import Dataset
-
+# expr dataset
 class UniAttackDataset(Dataset):
     def __init__(self, hdf5_filename, labels_filename=None, dataset_name='train_features'):
         self.hdf5_filename = hdf5_filename
