@@ -1,0 +1,13 @@
+clip @ git+https://github.com/openai/CLIP.git
+h5py==3.1.0
+numpy==1.26.4
+opencv-python==4.9.0.80
+pandas==1.4.4
+Pillow==10.1.0
+scikit-learn==1.0.2
+scikit-optimize==0.9.0
+scipy==1.9.1
+torch==2.1.2+cu121
+torchaudio==2.1.2+cu121
+torchvision==0.16.2+cu121
+tqdm==4.64.1
