@@ -1,6 +1,7 @@
 # Robust Affective Behavior Analysis with CLIP
 
 Li Lin, Sarah Papabathini, Xin Wang, and Shu Hu
+M2-Lab@Purdue Team
 _________________
 
 ### 1. Data Preparation
