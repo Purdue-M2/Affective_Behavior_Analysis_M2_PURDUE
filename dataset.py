@@ -79,11 +79,4 @@ if __name__ == '__main__':
     dataset_name='val_features'
 )
 
-#     # Calculate the number of labels equal to 1 and 0
-    # num_labels_1 = sum(label == 1 for label in train_dataset.labels)
-    # num_labels_0 = sum(label == 0 for label in train_dataset.labels)
-
-    # print(f"Number of labels = 1: {num_labels_1}")
-    # print(f"Number of labels = 0: {num_labels_0}")
-    print(f"Length of train dataset: {len(train_dataset)}")
     pass
