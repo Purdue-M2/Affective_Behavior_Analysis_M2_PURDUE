@@ -3,6 +3,8 @@
 Li Lin, Sarah Papabathini, Xin Wang, and Shu Hu
 
 M2-Lab@Purdue Team
+
+This repository is the official implementation of our paper [Robust Light-Weight Facial Affective Behavior Recognition with CLIP](https://arxiv.org/abs/2403.09915).
 _________________
 
 ### 1. Data Preparation
@@ -36,4 +38,15 @@ python train_au.py
 
 ```python
 model_trainer(loss_type='dag', batch_size=32, num_epochs=32)
+```
+
+## Citation
+Please kindly consider citing our papers in your publications. 
+```bash
+@article{lin2024robust,
+  title={Robust Light-Weight Facial Affective Behavior Recognition with CLIP},
+  author={Lin, Li and Papabathini, Sarah and Wang, Xin and Hu, Shu},
+  journal={arXiv preprint arXiv:2403.09915},
+  year={2024}
+}
 ```
