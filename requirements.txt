@@ -7,7 +7,7 @@ Pillow==10.1.0
 scikit-learn==1.0.2
 scikit-optimize==0.9.0
 scipy==1.9.1
-torch==2.1.2+cu121
+torch==2.2.0
 torchaudio==2.1.2+cu121
 torchvision==0.16.2+cu121
 tqdm==4.64.1
